@@ -4,3 +4,4 @@
 .git*
 blib*
 Makefile
+\.DS_Store
