@@ -1,8 +1,9 @@
 package Net::SSH::Perl::ProxiedIPC;
 use strict;
 use warnings;
+use vars qw($VERSION);
 
-our $VERSION = '0.01';
+$VERSION = '0.02';
 
 =head1 NAME
 
