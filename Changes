@@ -1,2 +1,4 @@
+# Changes to Net::SSH::Perl::ProxiedIPC
+
 0.01 Mon Apr 11 10:21:00 PDT 2011
-  - Initial version
+	* Initial version
