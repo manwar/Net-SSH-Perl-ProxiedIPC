@@ -1,10 +1,12 @@
 require 5.008;
+
+package Net::SSH::Perl::ProxiedIPC;
 use strict;
 use warnings;
 
 use File::Spec::Functions qw(catfile);
 
-my $module    = 'Net::SSH::Perl::ProxiedIPC';
+my $module    = __PACKAGE__;
 my $github    = 'https://github.com/briandfoy/Net-SSH-Perl-ProxiedIPC';
 my $main_file = catfile( 'lib', split /::/, "$module.pm" );
 
@@ -16,7 +18,8 @@ my %WriteMakefile = (
 	'AUTHOR'        => 'Jennie Rose Evers-Corvina <seven@nanabox.net>',
 
 	'CONFIGURE_REQUIRES' => {
-		'ExtUtils::MakeMaker' => '6.64',
+		'ExtUtils::MakeMaker'   => '6.64',
+		'File::Spec::Functions' => '0',
 		},
 
 	'BUILD_REQUIRES' => {
