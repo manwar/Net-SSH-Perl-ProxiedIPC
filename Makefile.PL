@@ -1,10 +1,12 @@
 require 5.008;
+
+package Net::SSH::Perl::ProxiedIPC;
 use strict;
 use warnings;
 
 use File::Spec::Functions qw(catfile);
 
-my $module    = 'Net::SSH::Perl::ProxiedIPC';
+my $module    = __PACKAGE__;
 ( my $dist = $module ) =~ s/::/-/g;
 
 my $github    = 'https://github.com/briandfoy/Net-SSH-Perl-ProxiedIPC';
