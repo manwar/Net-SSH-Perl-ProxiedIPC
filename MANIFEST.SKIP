@@ -1,9 +1,5 @@
-~$
-\.bak$
-\.old$
-\#
-.git*
-blib*
-Makefile$
-\.DS_Store
-\ANet-
+#!include_default
+
+\.releaserc
+\.lwpcookies
+\.travis\.yml
