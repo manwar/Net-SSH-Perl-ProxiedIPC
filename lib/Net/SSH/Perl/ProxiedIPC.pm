@@ -5,6 +5,8 @@ use vars qw($VERSION);
 
 $VERSION = '0.02';
 
+=encoding utf8
+
 =head1 NAME
 
 Net::SSH::Perl::ProxiedIPC - Make long distance SSH commands
