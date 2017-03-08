@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use vars qw($VERSION);
 
-$VERSION = '0.02';
+$VERSION = '0.021';
 
 =encoding utf8
 
@@ -125,6 +125,6 @@ Jennie Rose Evers-Corvina C<< <seven@nanabox.net> >>, Matthew S Trout
 
 =head1 LICENSE
 
-You can use this package under the same terms as Perl itself.
+You can use this package under the Artistic License 2.0
 
 =cut
